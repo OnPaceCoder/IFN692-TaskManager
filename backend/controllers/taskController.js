@@ -32,7 +32,9 @@ const updateTask = async (req, res) => {
         task.deadline = deadline || task.deadline;
 
         const updatedTask = await task.save();
+        //Display the updated task list
         res.json(updatedTask);
+
     } catch (error) {
         res.status(500).json({ message: 'Server error' });
     }
