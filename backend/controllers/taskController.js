@@ -54,6 +54,7 @@ const deleteTask = async (req, res) => {
 }
 
 //Update and delete functionality implemented
+// Comment 2
 module.exports = {
     getTasks,
     addTask,
