@@ -53,7 +53,7 @@ const deleteTask = async (req, res) => {
     }
 }
 
-
+//Update and delete functionality implemented
 module.exports = {
     getTasks,
     addTask,
